@@ -1,12 +1,7 @@
 # SmileyFaceMazeRace_InformedSearch
-
-# Author: Yasser Ghamlouch
-
 A Java program that simulates a race of the four smiley faces located in the four corners of a maze with obstacles towards a goal located at a certain position on the map. Assuming that they each use the A* algorithm to draw their path.
 
-/*************************
 # Description
-*************************/
 In this assignment we were given a maze with a set of obstacles with known positions, a goal, and a starting point
 for a character (a smiley face). 
 
@@ -23,9 +18,8 @@ the position 0,0 is the top left of the maze.
 All the code is inside the folder src. There are 7 classes: Cell.java, Game.java (main class), Maze.java, OutOfBoundsException.java, 
 Path.java, Point.java, SmileyFace.java.
 
-/*************************
-	Usage
-*************************/
+
+# Usage
 The first step is to compile the main file Game.java, either using the IDE of your choice or through the
 command line by calling javac command.
 
@@ -38,9 +32,8 @@ In order to test the program:
 A sample argument currently provided to the program is: "0;0 6;0 6;6 0;6 1" this will create four smileys, one in each corner of the first maze, and it will
 select maze 1 for testing.
 
-/*************************
-	Output
-*************************/
+
+# Output
 The output of the program has three parts:
 1) The first output printed out is the maze itself.
 
@@ -48,6 +41,5 @@ The output of the program has three parts:
 
 3) The final output is the winner(s) of the race, i.e the ids of the smiley faces with the shortest path traveled.
 
-/*************************
-	Thank you!
-*************************
+
+# Thank you!
